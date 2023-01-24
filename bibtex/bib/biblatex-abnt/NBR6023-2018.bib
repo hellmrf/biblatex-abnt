@@ -520,7 +520,6 @@
     issn            = {0034-723X},
 }
 
-
 @periodical{revista1939b,
     keywords        = {7.7.1},
     title           = {Revista Brasileira de Geografia},
@@ -562,7 +561,6 @@
 % subsection 7.7.2 >>>3
 % Coleção de publicação periódica em meio eletrônico
 
-
 @periodical{acta1997a,
     keywords       = {7.7.2},
     title          = {Acta Cirúrgica Brasileira},
@@ -576,7 +574,6 @@
     % A gambiarra foi meio que necessária no ISSN pois não tem nenhum campo de anotação entre ISSN e a URL (o addendum vem depois da URL). Ou utiliza o próprio ISSN ou usa um dos outros campos entre ISSN e URL como gambiarra, ignorando a semântica
 }
 
-
 @periodical{acta1997b,
     keywords       = {7.7.2},
     title          = {Acta Cirúrgica Brasileira},
@@ -588,7 +585,6 @@
     url            = {http://www.scielo.br/scielo.php?script=sci_serial&pid=0102-8650&lng=pt&nrm=iso},
     urlaccessdate  = {2013-08-22}
 }
-
 
 @periodical{ufsc2008,
     keywords       = {7.7.2},
@@ -608,7 +604,6 @@
 % subsection 7.7.3 >>>3
 % Parte de coleção de publicação periódica
 
-
 @periodical{ibge:parte1939,
     keywords        = {7.7.3},
     title           = {Revista Brasileira de Geografia},
@@ -625,187 +620,230 @@
 % subsection 7.7.4 >>>3
 % Fascículo, suplemento e outros
 
-% <<<3
+@periodical{tres2000,
+    keywords       = {7.7.4},
+    title          = {Dinheiro},
+    subtitle       = {revista semanal de negócios},
+    location       = {São Paulo},
+    publisher      = {Três},
+    issue          = {148},
+    date           = {2000-06-28},
+}
 
-@book{boletim1943,
-    keywords        = {7.5.1},
-    author          = {{Boletim Geográfico}},
+% TODO: use a bibmacro with volume+part too
+@periodical{geographico1901,
+    keywords       = {7.7.4},
+    title          = {Revista Trimensal do Instituto Histórico e Geographico Brazileiro},
+    subtitle       = {revista semanal de negócios},
+    location       = {Rio de Janeiro},
+    publisher      = {Companhia Typographica do Brazil},
+    issue          = {t. 64, pt. 1},
+    % volume         = {t. 64},
+    % part           = {1},
+    date           = {1901},
+}
+
+% TODO: add bold title
+% TODO: fix the additional space on the begining
+@supperiodical{as5001984,
+    keywords        = {7.7.4},
+    issuetitle      = {{As 500} maiores empresas do Brasil},
+    title           = {Conjuntura Econômica},
     location        = {Rio de Janeiro},
-    publisher       = {\mkbibacro{IBGE}},
-    date            = {1943/1978},
-    note            = {Trimestral},
-}
-
-@periodical{saopaulo1941a,
-    keywords        = {7.5.1},
-    title           = {São Paulo Medical Journal},
-    location        = {São Paulo},
-    publisher       = {Associação Paulista de Medicina},
-    year            = {1941-~.},
-    sortyear        = {1941},
-    note            = {Bimensal},
-    issn            = {0035-0362},
-}
-
-@periodical{dinheiro2000a,
-    keywords        = {7.5.2},
-    title           = {Dinheiro},
-    location        = {São Paulo},
-    publisher       = {Ed. Três},
-    issue           = {148},
-    date            = {2000-06-28},
-}
-
-@periodical{dinheiro2000b,
-    keywords        = {7.5.2},
-    title           = {Dinheiro},
-    subtitle        = {revista semanal de negócios},
-    location        = {São Paulo},
-    publisher       = {Ed. Três},
-    issue           = {148},
-    date            = {2000-06-28},
-    pagetotal       = {98},
-}
-
-@article{as5001984,
-    keywords        = {7.5.3},
-    title           = {As 500 maiores empresas do Brasil},
-    journaltitle    = {Conjuntura Econômica},
-    location        = {Rio de Janeiro},
+    publisher       = {Ed. FGV},
     volume          = {38},
     number          = {9},
     date            = {1984-09},
     note            = {Edição Especial},
 }
 
-@article{maodeobra1983,
-    keywords        = {7.5.3},
-    title           = {Mão-de-obra e previdência},
-    journaltitle    = {Pesquisa Nacional por amostra de domicílios},
-    location        = {Rio de Janeiro;\nopunct},
+% TODO: add bold title
+% TODO: fix the additional space on the begining
+@supperiodical{maodeobra1983,
+    keywords        = {7.7.4},
+    issuetitle      = {Mão-de-obra e previdência},
+    title           = {Pesquisa Nacional por Amostra de Domicílios},
+    location        = {Rio de Janeiro},
+    publisher       = {IBGE},
     volume          = {7},
     date            = {1983},
     note            = {Suplemento},
-    % Nesta entrada, ao contrário de todas as outras, a ABNT usa um ponto e
-    % vírgula após o local, em vez de uma vírgula.
 }
 
-@article{costa1998a,
-    keywords        = {7.5.3},
-    author          = {V. R. Costa},
-    title           = {À Margem da lei},
-    journaltitle    = {Em Pauta},
-    location        = {Rio de Janeiro},
-    number          = {12},
-    pages           = {131-148},
-    date            = {1998},
+% <<<3
+
+% subsection 7.7.5 >>>3
+% Artigo, seção e/ou matéria de publicação periódica
+
+@article{lucca2009,
+    keywords          = {7.7.5},
+    author            = {Gabriella {De Lucca}},
+    title             = {Notas curtas},
+    journaltitle      = {Getulio},
+    location          = {São Paulo},
+    volume            = {ano 3},
+    pages             = {9},
+    % Alternativa 1:
+    date              = {2009-07/2009-08},
+    % Alternativa 2:
+    % month             = {07},
+    % year              = {2009},
+    % endmonth          = {08},
+    % endyear           = {2009},
+    % pode-se utilizar date ou os campos de data com prefixo end  
+    options        = {slashdaterangesep}
 }
 
-@article{gurgel1997,
-    keywords        = {7.5.3},
-    author          = {C. Gurgel},
-    title           = {Reforma do estado e segurança pública},
-    journaltitle    = {Política e administração},
-    location        = {Rio de Janeiro},
-    volume          = {3},
-    number          = {2},
-    pages           = {15-21},
-    date            = {1997-09},
-}
-
-@article{tourinho1997,
-    keywords        = {7.5.3},
-    author          = {Tourinho Neto, F. C.},
-    title           = {Dano ambiental},
-    journaltitle    = {Consulex},
-    location        = {Brasília, DF},
-    volume          = {ano~1},
-    number          = {1},
-    pages           = {18-23},
-    date            = {1997-02},
-}
-
-@article{mansilla1998a,
-    keywords        = {7.5.3},
-    author          = {Tourinho Neto, F. C.},
-    author          = {H. C. F. Mansilla},
-    title           = {La controversia entre universalismo y particularismo
-                       en la filosofia de la cultura},
-    journaltitle    = {Revista Latinoamericana de Filosofia},
-    location        = {Buenos Aires},
-    volume          = {24},
-    number          = {2},
-    issue           = {primavera},
-    year            = {1998},
+% TODO: add option to not use et al.
+@article{dorea2011,
+    keywords          = {7.7.5},
+    author            = {R. D. Dorea and J. N. Costa and J. M. Batita and M. M. Ferreira and R. V. Menezes and T. S. Souza},
+    title             = {Reticuloperitonite traumática associada à esplenite e hepatite em bovino},
+    subtitle          = {relato de caso},
+    journaltitle      = {Veterinária e Zootecnia},
+    location          = {São Paulo},
+    volume            = {18},
+    number            = {4},
+    pages             = {199-202},
+    date              = {2011},
+    note              = {Supl. 3},
 }
 
 @article{sekeff2002,
-    keywords        = {7.5.3},
-    author          = {Gisela Sekeff},
-    title           = {O emprego dos sonhos},
-    journaltitle    = {Domingo},
-    location        = {Rio de Janeiro},
-    volume          = {ano 26},
-    number          = {1344},
-    pages           = {30-36},
-    date            = {2002-02-03},
+    keywords          = {7.7.5},
+    author            = {Gisela Sekeff},
+    title             = {O emprego dos sonhos},
+    journaltitle      = {Domingo},
+    location          = {Rio de Janeiro},
+    volume            = {ano 26},
+    number            = {1344},
+    pages             = {30-36},
+    date              = {2002-02-03},
 }
 
-@article{costa1998b,
-    keywords        = {7.5.3},
-    author          = {V. R. Costa},
-    title           = {À Margem da lei},
-    subtitle        = {o Programa Comunidade Solidária},
-    journaltitle    = {Em Pauta},
-    journalsubtitle = {Revista da Faculdade de Serviço Social
-                       da \mkbibacro{UERJ}},
-    location        = {Rio de Janeiro},
-    number          = {12},
-    pages           = {131-148},
-    date            = {1998},
+@article{rocke1985,
+    keywords        = {7.7.5},
+    author          = {Rocke, Hans and Ross, Johanna C},
+    title           = {Online catalogs for and by librarians},
+    journal         = {Technical Services Quarterly},
+    location        = {Greeley},
+    volume          = {2},
+    number          = {3/4},
+    pages           = {1-9},
+    year            = {1985},
+    endyear         = {1985},
+    yeardivision    = {spring},
+    endyeardivision = {summer},
+    langid={english},
+    hyphenation = {english},
+    options         = {dateabbrev=false,slashdaterangesep},
 }
+
+% TODO: use bibmacro with volume+number+edition+pages
+% TODO: create yearnumber field
+@article{teich2009,
+    keywords          = {7.7.5},
+    author            = {D. H. Teich},
+    title             = {A solução veio dos emergentes},
+    journaltitle      = {Exame},
+    location          = {São Paulo},
+    volume            = {ano 43},
+    % number            = {9},
+    % edition           = {943},
+    number            = {n. 9, ed. 943},
+    pages             = {66-67},
+    date              = {2009-05-20},
+}
+
+% TODO: add colon in editor+others
+% TODO: create yearnumber field
+@article{mendonca2008,
+    keywords          = {7.7.5},
+    author            = {Lenny Mendonça and Robert Sutton},
+    title             = {Como obter sucesso na era do código aberto},
+    % titleaddon        = {Entrevistado: Mitchekk Baker},
+    editora           = {Mitchekk Baker},
+    editoratype       = {Entrevistado},
+    journaltitle      = {HSM Management},
+    location          = {São Paulo},
+    volume            = {ano 12, v. 5},
+    number            = {70},
+    pages             = {102-106},
+    date              = {2008-09/2008-10},
+    options           = {slashdaterangesep}
+}
+
+% TODO: create tome field
+@article{tavares1953,
+    keywords          = {7.7.5},
+    author            = {Raul Tavares},
+    title             = {O combate naval do Monte Santiago},
+    journaltitle      = {Revista do Instituto Histórico e Geográfico Brasileiro},
+    location          = {Rio de Janeiro},
+    volume            = {155},
+    number            = {t. 101},
+    pages             = {168-203},
+    date              = {1953},
+}
+
+@article{costa1998,
+    keywords          = {7.7.5},
+    author            = {V. R. Costa},
+    title             = {À margem da lei},
+    subtitle          = {o Programa Comunidade Solidária},
+    journaltitle      = {Em Pauta},
+    journalsubtitle   = {revista da Faculdade de Serviço Social da UERJ},
+    location          = {Rio de Janeiro},
+    number            = {12},
+    pages             = {131-148},
+    date              = {1998},
+}
+
+% <<<3
+
+% subsection 7.7.6 >>>3
+% Artigo, seção e/ou matéria de publicação periódica em meio eletrônico
 
 @article{vieira1994,
-    keywords        = {7.5.4},
-    author          = {Cássio Leite Vieira and Marcelo Lopes},
-    title           = {A queda do cometa},
-    journaltitle    = {Neo Interativa},
-    location        = {Rio de Janeiro},
-    number          = {2},
-    issue           = {inverno},
-    year            = {1994},
-    note            = {1 \mkbibacro{CD-ROM}},
+    keywords          = {7.7.6},
+    author            = {Cássio Leite Vieira and Marcelo Lopes},
+    title             = {A queda do cometa},
+    journaltitle      = {Neo Interativa},
+    location          = {Rio de Janeiro},
+    number            = {2},
+    yeardivision      = {winter},
+    year              = {1994},
+    note              = {1 \mkbibacro{CD-ROM}},
 }
 
-@article{silva1998a,
-    keywords        = {7.5.4},
-    author          = {M. M. L. Silva},
-    title           = {Crimes da era digital},
-    journaltitle    = {.Net},
-    location        = {Rio de Janeiro},
-    date            = {1998-11},
-    note            = {Seção Ponto de Vista},
-    url             = {http://www.brazilnet.com.br/
-                       contexts/brasilrevistas.htm},
-    urldate         = {1998-11-28},
+@article{mmsilva1998,
+    keywords          = {7.7.6},
+    author            = {M. M. L. Silva},
+    title             = {Crimes da era digital},
+    journaltitle      = {Net},
+    location          = {Rio de Janeiro},
+    date              = {1998-11},
+    note              = {Seção Ponto de Vista},
+    url               = {http://www.brazilnet.com.br/contexts/brasilrevistas.htm},
+    urlaccessdate     = {1998-11-28}
 }
 
 @article{ribeiro1998,
-    keywords        = {7.5.4},
+    keywords        = {7.7.6},
     author          = {P. S. G. Ribeiro},
     title           = {Adoção à brasileira},
-    subtitle        = {uma análise sócio-jurídica},
+    subtitle        = {uma análise sociojurídica},
     journaltitle    = {Dataveni@},
     location        = {São Paulo},
     volume          = {ano 3},
     number          = {18},
     date            = {1998-08},
-    url             = {http://www.datavenia.inf.br/frameartig.html},
+    url             = {http://www.datavenia.inf.br/frame.artig.html},
     urldate         = {1998-09-10},
 }
 
 @article{windows1998,
-    keywords        = {7.5.4},
+    keywords        = {7.7.6},
     title           = {Windows 98},
     subtitle        = {o melhor caminho para atualização},
     journaltitle    = {\mkbibacro{PC} World},
@@ -816,86 +854,313 @@
     urldate         = {1998-09-10},
 }
 
-@article{costura1997,
-    keywords        = {7.5.5},
-    title           = {Costura $\times$ \mkbibacro{P.U.R.}},
-    journaltitle    = {Aldus},
+% TODO: fix the Acesso em: to not translate
+% TODO: fix the abscence of sine loco
+@article{alexandrescu2009,
+    keywords          = {7.7.6},
+    author            = {D. T. Alexandrescu},
+    title             = {Melanoma costs},
+    subtitle          = {a dynamic model comparing estimated overall costs of various clinical stages},
+    journaltitle      = {Dermatology Online Journal},
+    % location          = {[\textit{S. l.}]},
+    volume            = {15},
+    number            = {11},
+    pages             = {1},
+    date              = {2009-11},
+    url               = {http://dermatology.cdlib.org/1511/originals/melanoma_costs/alexandrescu.html},
+    urlaccessdate     = {2009-11-03},
+    langid = {english},
+}
+
+@article{zaken2005,
+    keywords        = {7.7.6},
+    author          = {Zaken Sidinei Paim},
+    title           = {No princípio},
+    journaltitle    = {Boletim Ouve Israel},
+    location        = {Curitiba},
+    issue           = {26 Tishrei 5766 =},
+    date            = {2005-10-29},
+    url             = {http://www.israelitas.com.br/boletim/boletimVer.php?%20id=48&nomerosh=},
+    urldate         = {2012-06-21},
+}
+
+@article{dantas2014,
+    keywords        = {7.7.6},
+    author          = {José Alves Dantas and Fábio Moraes da Costa and Jorge Katsumi Niyama and Otávio Ribeiro de Medeiros},
+    title           = {Regulação da auditoria em sistemas bancários},
+    subtitle        = {análise do cenário internacional e fatores determinantes},
+    journaltitle    = {Revista Contabilidade \& Finanças},
     location        = {São Paulo},
-    volume          = {ano 1},
-    number          = {1},
-    date            = {1997-11},
-    note            = {Encarte técnico, p. 8},
+    volume          = {25},
+    number          = {64},
+    pages           = {7-18},
+    date            = {2014-01/2014-04},
+    doi             = {http://dx.doi.org/10.1590/S1519-70772014000100002},
+    url             = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1519-70772014000100002&lng=en&nrm=iso},
+    urldate         = {2014-05-20},
+    options         = {slashdaterangesep}
 }
 
-@article{naves1999,
-    keywords        = {7.5.5},
-    author          = {P. Naves},
-    title           = {Lagos andinos dão banho de beleza},
-    journaltitle    = {Folha de S. Paulo},
-    location        = {São Paulo},
-    date            = {1999-06-28},
-    note            = {Folha Turismo, Caderno 8, p. 13},
-}
+% <<<3
 
-@article{leal1999,
-    keywords        = {7.5.5},
-    author          = {L. N. Leal},
-    title           = {\mkbibacro{MP} fiscaliza com autonomia total},
-    journaltitle    = {Jornal do Brasil},
-    location        = {Rio de Janeiro},
-    pages           = {3},
-    date            = {1999-04-25},
-}
+% subsection 7.7.7 >>>3
+% Artigo e/ou matéria de jornal
+% <<<3
 
-@article{paiva2002,
-    keywords        = {7.5.5},
-    author          = {Anabela Paiva},
-    title           = {Trincheira musical},
-    subtitle        = {músico dá lições de cidadania em forma de samba
-                       para crianças e adolescentes},
-    journaltitle    = {Jornal do Brasil},
-    location        = {Rio de Janeiro},
-    pages           = {2},
-    date            = {2002-01-12},
-}
-
-@article{silva1998b,
-    keywords        = {7.5.6},
-    author          = {Ives Gandra da Silva},
-    title           = {Pena de morte para o nasciturno},
+% TODO: use conditional to add the pages in the end
+% "[...] caderno ou parte do jornal e a paginação correspondente. Quando não houver seção, caderno ou parte, a paginação do artigo ou matéria precede a data."
+@article{otta2010,
+    keywords        = {7.7.7},
+    author          = {Lu Aiko Otta},
+    title           = {Parcela do tesouro nos empréstimos do BNDES cresce 566 \% em oito anos},
     journaltitle    = {O Estado de S. Paulo},
     location        = {São Paulo},
-    date            = {1998-09-19},
-    url             = {http://www.providafamilia.org/
-                       pena_morte_nasciturno.htm},
-    urldate         = {1998-09-19},
+    volume          = {ano 131},
+    number          = {42656},
+    date            = {2010-08-01},
+    note            = {Economia \& Negócios, p. B1},
 }
 
-@article{kelly1996,
-    keywords        = {7.5.6},
-    author          = {R. Kelly},
-    title           = {Electronic publishing at \mkbibacro{APS}},
-    subtitle        = {its not just online journalism},
-    journaltitle    = {\mkbibacro{APS} News Online},
-    location        = {Los Angeles},
-    issue           = {{Nov}\adddot},
-    year            = {1996},
-    url             = {http://www.aps.org/apsnews/1196/11965.html},
-    urldate         = {1998-11-25},
-    % Aqui, excepcionalmente, a ABNT coloca o mês com a inicial em maiúscula
-    % ("Nov."), por isso é preciso colocá-lo escrito literalmente. O ideal
-    % seria usar `date = {1996-11}`.
+% TODO: remove the \lowercase in pages bibmacro
+@article{credito2014,
+    keywords        = {7.7,7.7.7},
+    title           = {Crédito à agropecuária será de R\$ 156 bilhões até 2015},
+    journaltitle    = {Jornal do Commercio},
+    location        = {Rio de Janeiro},
+    volume          = {ano 97},
+    number          = {156},
+    pages           = {p. \autocap{\mknumalph{1}}3},
+    date            = {2014-05-20}
 }
 
-@article{arranjo1998,
-    keywords        = {7.5.6},
-    title           = {Arranjo tributário},
-    journaltitle    = {Diário do Nordeste Online},
-    location        = {Fortaleza},
-    date            = {1998-11-27},
-    url             = {http://www.diariodonordeste.com.br},
-    urldate         = {1998-11-28},
+% subsection 7.7.8 >>>3
+% Artigo e/ou matéria de jornal em meio eletrônico
+
+@article{verissimo2010,
+    keywords        = {7.7.8},
+    author          = {L. F. Veríssimo},
+    title           = {Um gosto pela ironia},
+    journaltitle    = {Zero Hora},
+    location        = {Porto Alegre},
+    volume          = {ano 47},
+    number          = {16.414},
+    pages           = {2},
+    date            = {2010-08-12},
+    url             = {http://www.clicrbs.com.br/zerohora/jsp/default.jspx?uf=1&action=flip},
+    urlaccessdate = {2010-08-12},
 }
+
+@article{professores2010,
+    keywords          = {7.7.8},
+    title             = {Professores terão exame para ingressar na carreira},
+    journaltitle      = {Diário do Vale},
+    location          = {Volta Redonda},
+    volume            = {18},
+    number            = {5877},
+    date              = {2010-05-27},
+    note              = {Caderno Educação, p. 41},
+    url               = {http://www.bancadigital.com.br/diariodovale/reader2/Default.aspx?pID=1&eID=495&lP=38&rP=39&lT=page},
+    urlaccessdate      = {2010-09-29}
+}
+
+% <<<3
+
+% section 7.8 >>>2
+% Evento
+
+% subsection 7.8.1 >>>3
+% Evento no todo em monografia
+
+% TODO: make eventtitle alias for sorttitle
+@proceedings{chemical1984,
+    keywords        = {7.8.1},
+    eventtitle      = {International Symposium on Chemical Changes During Food Processing},
+    sorttitle       = {International Symposium on Chemical Changes During Food Processing},
+    number          = {2},
+    eventdate       = {1984},
+    title           = {Proceedings\nopunct},
+    titleaddon      = {\bibellipsis},
+    venue           = {Valencia},
+    location        = {Valencia},
+    publisher       = {Instituto de Agroquímica y Tecnología de Alimentos},
+    date            = {1984},
+}
+
+% TODO: create fields for second eventitle and number
+% TODO: make eventtitle alias for sorttitle
+@proceedings{ines2009,
+    keywords        = {7.8,7.8.1},
+    eventtitle      = {Congresso Internacional do INES},
+    sorttitle       = {Congresso Internacional do INES},
+    number          = {8.;\nopunct},
+    eventyear       = {SEMINÁRIO NACIONAL DO INES, 14., 2009},
+    venue           = {Rio de Janeiro},
+    title           = {Anais\nopunct},
+    titleaddon      = {\bibellipsis},
+    location        = {Rio de Janeiro},
+    publisher       = {Instituto Nacional de Educação de Surdos},
+    year            = {2009},
+    pagetotal       = {160},
+    addendum        = {Tema: Múltiplos Atores e Saberes na Educação de Surdos. Inclui bibliografia},
+    % Muita gambiarra, sem condições
+}
+
+% <<<3
+
+% subsection 7.8.2 >>>3
+% Evento no todo em publicação periódica
+
+% TODO: create fields for second eventitle and number
+% TODO: create field or bibmacro for text before maintitle+title
+% TODO: make eventtitle alias for sorttitle
+@proceedings{pet2006,
+    keywords        = {7.8.2},
+    eventtitle      = {Congresso do Centro-Oeste de Clínicos Veterinários de Pequenos Animais},
+    sorttitle       = {Congresso do Centro-Oeste de Clínicos Veterinários de Pequenos Animais},
+    number          = {3.;\nopunct},
+    eventyear       = {FEIRA DO CENTRO-OESTE DO MERCADO PET, 3., 2006},
+    venue           = {[Brasília, DF]. [Trabalhos científicos e casos clínicos]},
+    title           = {Ciência Animal Brasileira},
+    location        = {Goiânia},
+    publisher       = {UFG},
+    date            = {2006-11},
+    note            = {Suplemento 1},
+    % Novamente muita gambiarra. Esses exemplos que fogem do padrão são complicados
+}
+
+% TODO: create fields for second eventitle and number
+% TODO: create field or bibmacro for text before maintitle+title
+% TODO: make eventtitle alias for sorttitle
+% TODO: use bibmacro with volume+number in the right position
+@proceedings{olericultura2001,
+    keywords        = {7.8.2},
+    eventtitle      = {Congresso Brasileiro de Olericultura},
+    sorttitle       = {Congresso Brasileiro de Olericultura},
+    number          = {41.;\nopunct},
+    eventyear       = {ENCONTRO SOBRE PLANTAS MEDICINAIS, AROMÁTICAS E CONDIMENTARES, 1., 2001},
+    venue           = {Brasília, DF. Apresentação, artigos, palestras, instruções....},
+    title           = {Horticultura Brasileira},
+    location        = {Brasília, DF},
+    publisher       = {Sociedade de Olericultura do Brasil, v. 19, n. 2},
+    date            = {2001-07},
+    note            = {Suplemento. Tema: Dos orgânicos aos transgênicos},
+    % Outro cheio de gambiarra. Depois que eu fizer os ajustes a situação vai ficar mais suave
+}
+
+% <<<3
+
+% subsection 7.8.3 >>>3
+% Evento no todo em meio eletrônico
+
+% TODO: create option to add \bibellipsis to fields
+@proceedings{congresso1996,
+    keywords        = {7.8.3},
+    organization    = {Congresso de Iniciação Científica da {UFPE}},
+    number          = {4},
+    eventdate       = {1996},
+    venue           = {Recife},
+    title           = {Anais eletrônicos\nopunct},
+    titleaddon      = {[\ldots]},
+    location        = {Recife},
+    publisher       = {UFPE},
+    date            = {1996},
+    url             = {http://www.propesq.ufpe.br/anais/anais.htm},
+    urldate         = {1997-01-21},
+}
+
+% TODO: create option to add brackets
+% TODO: make eventtitle alias for sorttitle
+@proceedings{hotel2004,
+    keywords        = {7.8,7.8.3},
+    eventtitle      = {Conferência de Gestão Hoteleira do Brasil},
+    sorttitle       = {Conferência de Gestão Hoteleira do Brasil},
+    number          = {2},
+    eventyear       = {2004},
+    venue           = {Rio de Janeiro},
+    title           = {Hotel management II},
+    location        = {Rio de Janeiro},
+    publisher       = {Senac/CPRTV},
+    year            = {[2004]},
+    sortyear        = {2004},
+    note            = {4 fitas de vídeo, VHS, NTSC},
+}
+
+% TODO: make eventtitle alias for sorttitle
+@proceedings{soja2009,
+    keywords        = {7.8.3},
+    eventtitle      = {Congresso Brasileiro de Soja},
+    sorttitle       = {Congresso Brasileiro de Soja},
+    number          = {5.;\nopunct},
+    eventyear       = {CONGRESSO DE SOJA DO MERCOSUL, 2009},
+    venue           = {Goiânia},
+    title           = {Anais\nopunct},
+    titleaddon      = {\bibellipsis},
+    location        = {Brasília, DF},
+    publisher       = {Embrapa},
+    year            = {2009},
+    note            = {1 \mkbibacro{CD-ROM}. Siglas dos eventos: \mkbibacro{CBSOJA} e \mkbibacro{MERCOSOJA}. Tema: Soja: fator de desenvolvimento do Cone Sul},
+}
+
+% <<<3
+
+% subsection 7.8.4 >>>3
+% Parte de evento
+
+% subsubsection 7.8.4.1 >>>4
+% Parte de evento em monografia
+
+@inproceedings{brayner1994,
+      keywords        = {7.8.4.1},
+      author          = {A. R. A. Brayner and C. B. Medeiros},
+      title           = {Incorporação do tempo em \mkbibacro{SGDB} orientado a objetos},
+      eventtitle      = {Simpósio Brasileiro de Banco de Dados},
+      number          = {9},
+      eventdate       = {1994},
+      venue           = {São Paulo},
+      booktitle       = {Anais\nopunct},
+      booktitleaddon  = {\bibellipsis},
+      location        = {São Paulo},
+      publisher       = {\mkbibacro{USP}},
+      date            = {1994},
+      pages           = {16-29},
+}
+
+% TODO: create fields for second eventitle and number
+@inproceedings{zuben2010,
+      keywords        = {7.8.4.1},
+      author          = {A. V. Zuben and C. Casanova and M. B. D. Baldini and O. Rangel and R. N. Angerami and R. C. A. Rodrigues and D. Presotto},
+      title           = {Vigilância epidemiológica da leishmaniose visceral americana (LVA) em cães no município de Campinas, São Paulo},
+      eventtitle      = {Reunião de Pesquisa Aplicada em Doenças de Chagas},
+      number          = {26.; REUNIÃO DE PESQUISA APLICADA EM LEISHMANIOSES, 14.REUNIÃO DE PESQUISA APLICADA EM LEISHMANIOSES, 14.},
+      eventdate       = {2010},
+      venue           = {Uberaba},
+      booktitle       = {Anais\nopunct},
+      booktitleaddon  = {\bibellipsis},
+      location        = {Uberaba},
+      publisher       = {Universidade Federal do Triangulo Mineiro},
+      date            = {2010},
+      pages           = {135-175},
+}
+
+@inproceedings{martinneto1997,
+    keywords        = {7.8.4.1},
+    author          = {L. {Martin Neto} and C. Bayer and J. Mielniczuk},
+    title           = {Alterações qualitativas da matéria orgânica e os fatores determinantes da sua estabilidade num solo podzólico vermelho-escuro em diferentes sistemas de manejo},
+    eventtitle      = {Congresso Brasileiro de Ciência do Solo},
+    number          = {26},
+    eventdate       = {1997},
+    venue           = {Rio de Janeiro},
+    booktitle       = {Resumos\nopunct},
+    booktitleaddon  = {\bibellipsis},
+    location        = {Rio de Janeiro},
+    publisher       = {Sociedade Brasileira de Ciência do Solo},
+    year            = {1997},
+    note            = {p. 443, ref. 6-141},
+  }
+
+% <<<4
+
+% <<<3
 
 % <<<2
 
@@ -924,20 +1189,6 @@
     location        = {São Paulo},
     publisher       = {Sociedade Brasileira de Química},
     date            = {1997},
-}
-
-@proceedings{congresso1996,
-    keywords        = {7.6.3},
-    organization    = {Congresso de Iniciação Científica da {UFPe}},
-    number          = {4},
-    eventdate       = {1996},
-    venue           = {Recife},
-    title           = {Anais eletrônicos [\ldots]},
-    location        = {Recife},
-    publisher       = {UFPe},
-    date            = {1996},
-    url             = {http://www.propesq.ufpe.br/anais/anais.htm},
-    urldate         = {1997-01-21},
 }
 
 % <<<
